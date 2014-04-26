@@ -47,10 +47,23 @@ URxvt*color15:      #d0d0d0
 
 URxvt*scrollBar_right:false
 URxvt*scrollBar:false
+URxvt*urlLauncher:xombrero
 URxvt*jumpScroll:false
 URxvt*scrollWithBuffer:false
 URxvt*scrollTtyOutput:false
 URxvt*scrollTtyKeypress:false
+
+!-- tabs and yankable URLs --!
+
+URxvt.perl-ext: default,url-select,tabbed
+URxvt.keysym.C-i: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/local/bin/xombrero
+URxvt.url-select.underline: true
+
+URxvt.tabbed.tabbar-fg: 239
+URxvt.tabbed.tabbar-bg: 233
+URxvt.tabbed.tab-fg: 247 
+URxvt.tabbed.tab-bg: 233
 
 !-- Xft settings -- !
 Xft.dpi:        96
