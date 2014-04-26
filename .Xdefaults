@@ -1,0 +1,116 @@
+!!-- URXVT --!!
+
+!enable 256 colors
+URxvt*termName:     rxvt-256color
+URxvt*buffered:     false
+
+URxvt*background:   #1c1c1c
+URxvt*foreground:   #9e9e9e
+URxvt*cursorColor:  #d0d0d0
+URxvt*underlineColor: #d0d0d0
+URxvt*cursorBlink:false
+
+URxvt*colorBD:      #3579a8
+URxvt*colorUL:      #4eb4fa
+
+!black
+URxvt*color0:       #000000
+URxvt*color8:       #080808
+
+!red
+URxvt*color1:       #960050
+URxvt*color9:       #ff005f
+
+!green
+URxvt*color2:       #afd700
+URxvt*color10:      #80ff00
+
+!yellow
+URxvt*color3:       #ff8700
+URxvt*color11:      #ffaf00
+
+!blue
+URxvt*color4:       #30309b
+URxvt*color12:      #5f5fee
+
+!magenta
+URxvt*color5:       #7e40a5
+URxvt*color13:      #bb88dd
+
+!cyan
+URxvt*color6:       #3579a8
+URxvt*color14:      #4eb4fa
+
+!white
+URxvt*color7:       #9e9e9e
+URxvt*color15:      #d0d0d0
+
+URxvt*scrollBar_right:false
+URxvt*scrollBar:false
+URxvt*jumpScroll:false
+URxvt*scrollWithBuffer:false
+URxvt*scrollTtyOutput:false
+URxvt*scrollTtyKeypress:false
+
+!-- Xft settings -- !
+Xft.dpi:        96
+Xft.antialias:  true
+Xft.rgba:       rgb
+Xft.hinting:    true
+Xft.hintstyle:  hintfull
+
+! -- Fonts -- !
+URxvt.font:xft:Terminess\ Powerline:size=8
+URxvt.boldFont:xft:Terminess\ Powerline:size=8
+URxvt.italicFont:xft:Terminess\ Powerline:size=8
+URxvt.boldItalicFont:xft:Terminess\ Powerline:size=8
+
+!!-- XTERM --!!
+
+!enable 256 colors
+XTerm*termName:     xterm-256color
+XTerm*buffered:     false
+
+XTerm*background:   #1c1c1c
+XTerm*foreground:   #9e9e9e
+XTerm*cursorColor:  #d0d0d0
+XTerm*underlineColor: #d0d0d0
+XTerm*cursorBlink:false
+
+XTerm*colorBD:      #3579a8
+XTerm*colorUL:      #4eb4fa
+
+!black
+XTerm*color0:       #000000
+XTerm*color8:       #080808
+
+!red
+XTerm*color1:       #960050
+XTerm*color9:       #ff005f
+
+!green
+XTerm*color2:       #afd700
+XTerm*color10:      #80ff00
+
+!yellow
+XTerm*color3:       #d75f00
+XTerm*color11:      #ffba68
+
+!blue
+XTerm*color4:       #005f87
+XTerm*color12:      #0087af
+
+!magenta
+XTerm*color5:       #7e40a5
+XTerm*color13:      #af87ff
+
+!cyan
+XTerm*color6:       #3579a8
+XTerm*color14:      #4eb4fa
+
+!white
+XTerm*color7:       #9e9e9e
+XTerm*color15:      #d0d0d0
+
+!-- Fonts --!
+XTerm.font:xft:Terminess\ Powerline:size=8
