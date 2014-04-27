@@ -7,6 +7,8 @@ xset -b
 
 xsetroot -cursor_name left_ptr &
 
-xsetbg /your/path/here/xbsdbg.png &
+xsetbg /usr/home/skinnr/Images/xbsdbg.png &
+
+urxvtd -q -o -f &
 
 exec xmonad
