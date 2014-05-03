@@ -52,19 +52,29 @@ URxvt*jumpScroll:false
 URxvt*scrollWithBuffer:false
 URxvt*scrollTtyOutput:false
 URxvt*scrollTtyKeypress:false
+URxvt*reverseVideo:false
 
 !-- tabs and yankable URLs --!
 
-URxvt.perl-ext: default,url-select,tabbed
+URxvt.perl-ext: default,url-select,tabbedex
 URxvt.keysym.C-i: perl:url-select:select_next
 URxvt.url-select.launcher: /usr/local/bin/xombrero
 URxvt.url-select.button: 1
 URxvt.url-select.underline: false
 
-URxvt.tabbed.tabbar-fg: 239
+URxvt.tabbed.tabbar-fg: 247
 URxvt.tabbed.tabbar-bg: 233
-URxvt.tabbed.tab-fg: 247 
+URxvt.tabbed.tab-fg: 197 
 URxvt.tabbed.tab-bg: 233
+URxvt.tabbed.title-fg: 148
+URxvt.tabbed.title-bg:233
+URxvt.tabbed.autohide: true  
+URxvt.tabbed.new-button: false
+URxvt.tabbed.reopen-on-close: false
+URxvt.tabbed.no-tabbedex-keys: true
+URxvt.keysym.Control-space: perl:tabbedex:new_tab
+URxvt.keysym.Control-l: perl:tabbedex:next_tab
+URxvt.keysym.Control-h: perl:tabbedex:prev_tab
 
 !-- Xft settings -- !
 Xft.dpi:        96
@@ -74,10 +84,10 @@ Xft.hinting:    true
 Xft.hintstyle:  hintfull
 
 ! -- Fonts -- !
-URxvt.font:xft:Terminess\ Powerline:size=8
-URxvt.boldFont:xft:Terminess\ Powerline:size=8
-URxvt.italicFont:xft:Terminess\ Powerline:size=8
-URxvt.boldItalicFont:xft:Terminess\ Powerline:size=8
+URxvt.font:-xos4-terminus-*-*-normal--12-120-*-72-c-60-*-*
+URxvt.boldFont:-xos4-terminus-*-*-normal--12-120-*-72-c-60-*-*
+URxvt.italicFont:-xos4-terminus-*-*-normal--12-120-*-72-c-60-*-*
+URxvt.boldItalicFont:-xos4-terminus-*-*-normal--12-120-*-72-c-60-*-*
 
 !!-- XTERM --!!
 
